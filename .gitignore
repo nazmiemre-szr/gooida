@@ -1,0 +1,65 @@
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/backup-*
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/
+
+# Plugins ve Temalar (Vendor)
+wp-content/plugins/akismet/
+wp-content/plugins/hello.php
+
+# PHP
+.DS_Store
+Thumbs.db
+*.log
+*.pot
+
+# IDE ve Editörler
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.buildpath
+.settings
+sftp-config.json
+
+# Node ve Dependency Management
+node_modules/
+composer.lock
+package-lock.json
+yarn.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Dosyalar
+*.bak
+*.tmp
+*.swp
+*.zip
+*.tar.gz
+*.rar
+
+# Yüklenen Görseller
+/uploads/
+/uploads_temp/
+/image_cache/
+
+# Test ve Debug
+/debug.log
+phpunit.xml
+.phpunit.result.cache
