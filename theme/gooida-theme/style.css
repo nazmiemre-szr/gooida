@@ -1,0 +1,48 @@
+/*
+Theme Name: GOOIDA Zero Bloat
+Theme URI: https://github.com/nazmiemre-szr/gooida
+Author: nazmiemre-szr
+Version: 1.0.0
+Description: Hafif, temiz ve SEO odaklı özel tema
+Tags: zero-bloat, custom, gooida, seo
+*/
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #f6f7f9;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.gooida-premium-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 32px 0;
+}
+.gooida-card.premium {
+  border: 2px solid #f39c12;
+  border-radius: 14px;
+  background: #fffbe6;
+  padding: 18px 28px;
+  min-width: 220px;
+  box-shadow: 0 2px 8px rgb(243 156 18 / 0.11);
+  position: relative;
+}
+.gooida-card.premium .badge {
+  background: #f39c12;
+  color: #fff;
+  padding: 2px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 13px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+.gooida-card .desc {
+  color: #444;
+  margin-top: 12px;
+  font-size: 15px;
+}
